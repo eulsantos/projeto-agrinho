@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho Paraná - Campo e Cidade</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>🌱 Agrinho Paraná</h1>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#campo">Campo</a></li>
+                <li><a href="#cidade">Cidade</a></li>
+                <li><a href="#interacao">Interação</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+
+            <button id="temaBtn">🌙</button>
+        </nav>
+
+        <section class="hero" id="inicio">
+            <div class="hero-text">
+                <h2>A conexão entre o Campo e a Cidade</h2>
+
+                <p>
+                    O campo produz os alimentos, matérias-primas e recursos
+                    necessários para a vida urbana. A cidade oferece tecnologia,
+                    comércio, serviços e desenvolvimento para o campo.
+                </p>
+
+                <button onclick="scrollToSection()">Explorar</button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="cards" id="campo">
+
+            <h2>🌾 O Campo</h2>
+
+            <div class="container-cards">
+
+                <div class="card">
+                    <h3>Agricultura</h3>
+
+                    <p>
+                        A agricultura é fundamental para abastecer as cidades
+                        com alimentos de qualidade.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Pecuária</h3>
+
+                    <p>
+                        A criação de animais fornece carne, leite e outros
+                        produtos essenciais.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Sustentabilidade</h3>
+
+                    <p>
+                        O uso consciente dos recursos naturais ajuda a preservar
+                        o meio ambiente.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="cidade" id="cidade">
+
+            <h2>🏙️ A Cidade</h2>
+
+            <div class="cidade-content">
+
+                <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1200&auto=format&fit=crop" alt="Cidade">
+
+                <div>
+                    <p>
+                        A cidade concentra indústrias, comércio, tecnologia,
+                        educação e serviços que ajudam o desenvolvimento do campo.
+                    </p>
+
+                    <p>
+                        A troca entre campo e cidade fortalece a economia e
+                        melhora a qualidade de vida das pessoas.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="interacao" id="interacao">
+
+            <h2>🤝 Interação entre Campo e Cidade</h2>
+
+            <div class="estatisticas">
+
+                <div class="estatistica">
+                    <h3 class="contador" data-target="85">0</h3>
+                    <p>% dos alimentos vêm do campo</p>
+                </div>
+
+                <div class="estatistica">
+                    <h3 class="contador" data-target="70">0</h3>
+                    <p>% da população vive nas cidades</p>
+                </div>
+
+                <div class="estatistica">
+                    <h3 class="contador" data-target="100">0</h3>
+                    <p>Conexão essencial</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="galeria">
+
+            <h2>📸 Galeria</h2>
+
+            <div class="galeria-grid">
+
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1000&auto=format&fit=crop">
+
+                <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1000&auto=format&fit=crop">
+
+                <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1000&auto=format&fit=crop">
+
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1000&auto=format&fit=crop">
+
+            </div>
+
+        </section>
+
+        <section class="quiz" id="quiz">
+
+            <h2>🧠 Quiz Educativo</h2>
+
+            <div class="quiz-box">
+
+                <h3>
+                    Qual é a principal função do campo para a cidade?
+                </h3>
+
+                <button onclick="resposta('errado')">
+                    Produzir carros
+                </button>
+
+                <button onclick="resposta('certo')">
+                    Produzir alimentos
+                </button>
+
+                <button onclick="resposta('errado')">
+                    Construir prédios
+                </button>
+
+                <p id="resultado"></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Projeto Agrinho Paraná 2026 🌱
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
