@@ -19,7 +19,7 @@ Este projeto foi desenvolvido para o Agrinho 2026, com o tema voltado à relaç�
 * Os textos e a estrutura do projeto foram desenvolvidos por Labelly Felde K Dos Santos, com apoio de ferramentas de inteligência artificial para auxiliar na criação e organização das ideias.
 
 # 🏷️ Tags
-* grinho, campo e cidade, tecnologia, educação, sustentabilidade
+* Agrinho, campo e cidade, tecnologia, educação, sustentabilidade
 
 # 💬 Observações
 
